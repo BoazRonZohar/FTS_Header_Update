@@ -7,8 +7,9 @@ Created on Wed Dec 28 08:53:45 2022
 
 import os #importing the os module 
 
+#all the files needs to be in the working directory
 directory = os.getcwd() #getting the current working directory
-print(directory)
+print(directory) #prints the current working directory
 
 
 from astropy.io import fits #importing the fits module
